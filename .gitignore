@@ -1,0 +1,61 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# dotenv environment variables file
+.env
+.env.test
+.env.local
+.env.production
+
+# Project specific files
+temp/*
+!temp/.gitkeep
+results/*.html
+results/*.json
+cache/
+*.simc
+
+# Debug and development files
+debug-*.js
+test-output-*.txt
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Coverage and testing
+coverage/
+.nyc_output/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
