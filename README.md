@@ -3,10 +3,10 @@
 [![Node.js](https://img.shields.io/badge/Node.js-16%2B-green.svg)](https://nodejs.org/)
 [![Discord.js](https://img.shields.io/badge/Discord.js-14.x-blue.svg)](https://discord.js.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![GitHub Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FHadesTheSilent%2Fsimc-discord-bot&count_bg=%23795DA3&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false)](https://github.com/HadesTheSilent/simc-discord-bot)
-[![GitHub Stars](https://img.shields.io/github/stars/HadesTheSilent/simc-discord-bot?style=flat&color=yellow)](https://github.com/HadesTheSilent/simc-discord-bot/stargazers)
+[![Stars](https://img.shields.io/github/stars/HadesTheSilent/simc-discord-bot?style=flat&color=yellow)](https://github.com/HadesTheSilent/simc-discord-bot/stargazers)
+[![Forks](https://img.shields.io/github/forks/HadesTheSilent/simc-discord-bot?style=flat&color=blue)](https://github.com/HadesTheSilent/simc-discord-bot/network/members)
 
-Um bot Discord avançado que integra com SimulationCraft para realizar simulações detalhadas de DPS do World of Warcraft, oferecendo análises completas de personagens com visualizações ricas e sistema de cache inteligente.
+Um bot para Discord avançado que integra com SimulationCraft para realizar simulações detalhadas de DPS do World of Warcraft, oferecendo análises completas de personagens com visualizações ricas e sistema de cache inteligente.
 
 ## ✨ Funcionalidades
 
