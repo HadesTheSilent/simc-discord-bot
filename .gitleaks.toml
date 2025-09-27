@@ -1,0 +1,54 @@
+# Configuração do Gitleaks para SimulationCraft Discord Bot
+title = "Gitleaks Config"
+
+[extend]
+useDefault = true
+
+[[rules]]
+description = "Discord Bot Token"
+id = "discord-bot-token"
+regex = '''(?i)(discord[_-]?token|bot[_-]?token)[\s]*[=:]\s*['"]?([A-Za-z0-9]{24}\.[A-Za-z0-9-_]{6}\.[A-Za-z0-9-_]{38})['"]?'''
+tags = ["discord", "token", "bot"]
+
+[[rules]]
+description = "Discord Client ID"
+id = "discord-client-id"
+regex = '''(?i)(client[_-]?id|application[_-]?id)[\s]*[=:]\s*['"]?([0-9]{17,19})['"]?'''
+tags = ["discord", "client", "id"]
+
+[[rules]]
+description = "Environment Variables"
+id = "env-vars"
+regex = '''(?i)(api[_-]?key|secret[_-]?key|private[_-]?key|password|passwd|pwd)[\s]*[=:]\s*['"]?([A-Za-z0-9+/]{20,})['"]?'''
+tags = ["key", "secret", "password"]
+
+[[rules]]
+description = "GitHub Token"
+id = "github-token"
+regex = '''(?i)(github[_-]?token|gh[_-]?token|personal[_-]?access[_-]?token)[\s]*[=:]\s*['"]?(ghp_[A-Za-z0-9]{36}|gho_[A-Za-z0-9]{36}|ghu_[A-Za-z0-9]{36}|ghs_[A-Za-z0-9]{36}|ghr_[A-Za-z0-9]{36}|github_pat_[A-Za-z0-9]{22}_[A-Za-z0-9]{59})['"]?'''
+tags = ["github", "token", "pat"]
+
+[allowlist]
+description = "Arquivos permitidos"
+paths = [
+    '''.env.example''',
+    '''docs/SETUP_DISCORD.md''',
+    '''README.md''',
+    '''SECURITY.md'''
+]
+
+# Ignorar hashes de package-lock.json
+regexes = [
+    '''sha512-[A-Za-z0-9+/=]{64,}''',
+    '''integrity.*sha[0-9]+-[A-Za-z0-9+/=]+''',
+    '''talents=[A-Za-z0-9+/=]+''' # Talents strings do WoW são públicos
+]
+
+# Ignorar strings de exemplo/placeholder
+strings = [
+    "seu_token_aqui",
+    "seu_client_id_aqui",
+    "seu_token_do_bot_aqui",
+    "seu_token_do_bot_discord_aqui",
+    "seu_guild_id_para_testes"
+]

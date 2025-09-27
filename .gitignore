@@ -59,3 +59,63 @@ coverage/
 
 # Optional REPL history
 .node_repl_history
+
+# Security and secrets
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.csr
+config.json
+secrets.json
+
+# Gitleaks reports
+gitleaks-report.json
+security-report.json
+detailed-report.json
+
+# Backup and temporary files
+*.backup
+*.bak
+*.tmp
+*.temp
+
+# Development and debug files
+debug.log
+error.log
+*.debug
+.vscode/settings.json
+.vscode/launch.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# IDE and editor files
+.idea/
+*.swp
+*.swo
+*~
+.project
+.metadata
+.classpath
+
+# Application specific
+config/
+local.json
+settings.json
+database.sqlite
+*.db
+*.sqlite3
+
+# Docker and containers
+.dockerignore
+docker-compose.override.yml
+.docker/
