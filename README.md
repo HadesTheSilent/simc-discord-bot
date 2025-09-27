@@ -3,6 +3,8 @@
 [![Node.js](https://img.shields.io/badge/Node.js-16%2B-green.svg)](https://nodejs.org/)
 [![Discord.js](https://img.shields.io/badge/Discord.js-14.x-blue.svg)](https://discord.js.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![GitHub Views](https://komarev.com/ghpvc/?username=HadesTheSilent&repo=simc-discord-bot&color=blueviolet&style=flat&label=views)](https://github.com/HadesTheSilent/simc-discord-bot)
+[![GitHub Stars](https://img.shields.io/github/stars/HadesTheSilent/simc-discord-bot?style=flat&color=yellow)](https://github.com/HadesTheSilent/simc-discord-bot/stargazers)
 
 Um bot Discord avançado que integra com SimulationCraft para realizar simulações detalhadas de DPS do World of Warcraft, oferecendo análises completas de personagens com visualizações ricas e sistema de cache inteligente.
 
